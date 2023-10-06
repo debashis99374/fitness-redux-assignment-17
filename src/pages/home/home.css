@@ -1,0 +1,28 @@
+.home {
+  width: 100%;
+  display: flex;
+  gap: 5px;
+  margin-top: 50px;
+}
+.home > div {
+  padding: 10px;
+  width: 25%;
+  box-sizing: grey 1px 1px 1px 1px;
+  border-radius: 5px;
+}
+.home > div > p {
+  color: rgb(250, 66, 4);
+}
+.home > div:nth-child(1) {
+  background-color: darkkhaki;
+}
+
+.home > div:nth-child(2) {
+  background-color: skyblue;
+}
+.home > div:nth-child(3) {
+  background-color: mediumseagreen;
+}
+.home > div:nth-child(4) {
+  background-color: magenta;
+}

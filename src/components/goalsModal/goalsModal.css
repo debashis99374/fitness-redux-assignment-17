@@ -1,0 +1,54 @@
+.goal-modal {
+  background-color: rgba(209, 203, 203);
+  position: fixed;
+  width: 400px;
+  margin: 0px auto;
+  height: 500px;
+  top: 01;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.goal-modal form {
+  display: flex;
+  flex-direction: column;
+}
+
+.goal-modal label {
+  margin-bottom: 10px;
+}
+
+.goal-modal input,
+.goal-modal select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+
+.goal-modal button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.goal-modal button[type="submit"] {
+  background-color: #28a745;
+}
+
+.goal-modal button[type="submit"]:hover {
+  background-color: #218838;
+}
+
+.goal-modal button[type="submit"],
+.goal-modal button[type="button"] {
+  margin-right: 10px;
+}

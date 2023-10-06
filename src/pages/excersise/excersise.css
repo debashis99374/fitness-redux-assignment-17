@@ -1,0 +1,27 @@
+.excersise {
+}
+.excersise > button {
+  width: 70%;
+  margin-bottom: 20px;
+}
+.excersise > div {
+  width: 400px;
+  padding: 10px;
+  margin-bottom: 5px;
+  margin: auto;
+}
+.excersise > div > div {
+  position: relative;
+  margin-bottom: 10px;
+  background-color: rgb(248, 202, 186);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-shadow: darkgrey 2px 1px 1px 1px;
+}
+.excersise > div > div > button {
+  position: absolute;
+  top: 80px;
+  left: 300px;
+}
